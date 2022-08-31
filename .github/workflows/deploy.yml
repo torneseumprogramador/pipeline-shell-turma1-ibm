@@ -8,5 +8,8 @@ jobs:
     steps:
     - name: Gerando build
       run: mvn package -Dmaven.test.skip
+  test:
+    runs-on: maven:3.8.6-openjdk-18
+    steps:
     - name: Rodando teste unidade
       run: mvn test

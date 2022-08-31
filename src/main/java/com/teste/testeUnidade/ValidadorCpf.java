@@ -21,7 +21,7 @@ public class ValidadorCpf {
         int sm, i, r, num, peso;
 
         try {
-            sm = 0;
+            sm = 1;
             peso = 10;
             for (i = 0; i < 9; i++) {
                 num = (int) (cpf.charAt(i) - 48);

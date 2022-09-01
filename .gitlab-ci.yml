@@ -7,6 +7,7 @@ stages:
 build:
   stage: build
   script:
+  - echo  "gerando pacote"
   - mvn package -Dmaven.test.skip
 
 test:
